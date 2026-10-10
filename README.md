@@ -64,8 +64,8 @@ After training, fill in your numbers here (see `checkpoints/test_report.txt`):
 
 | Metric | Value |
 |---|---|
-| Test accuracy | _TBD_ |
-| F1 (macro) | _TBD_ |
+| Test accuracy | 0.82 |
+| F1 (macro) | 0.83 |
 
 ![Training curves](assets/training_curves.png)
 ![Confusion matrix](assets/confusion_matrix.png)

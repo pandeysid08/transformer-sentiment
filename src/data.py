@@ -48,7 +48,7 @@ def load_texts(source="hf", csv_path=None, subset=None, seed=42):
     else:
         from datasets import load_dataset
 
-        ds = load_dataset("imdb")
+        ds = load_dataset("stanfordnlp/imdb")
         tr_texts, tr_labels = ds["train"]["text"], ds["train"]["label"]
         te_texts, te_labels = ds["test"]["text"], ds["test"]["label"]
     if subset:  # quick debug runs
